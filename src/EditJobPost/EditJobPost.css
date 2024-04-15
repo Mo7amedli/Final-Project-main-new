@@ -1,0 +1,60 @@
+/* Style for form container */
+.edit-job-post-container {
+  max-width: 700px;
+  height: 615px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #625ee2;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Style for form labels */
+.edit-job-post-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Style for form input fields */
+.edit-job-post-input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #625ee2;
+  border-radius: 4px;
+}
+
+/* Style for form textarea */
+.edit-job-post-textarea {
+  width: calc(100% - 10px);
+  height: 70px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border:1px solid #625ee2;
+  border-radius: 4px;
+}
+
+/* Style for form submit button */
+.edit-job-post-submit {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for button */
+button{
+  position: absolute;
+  top: 610px;
+  right: 420px;
+}
+.edit-job-post-select{
+ height: 30px;
+ width: 400px;
+ border:2px solid #9794f8;
+ border-radius: 5px;
+
+}

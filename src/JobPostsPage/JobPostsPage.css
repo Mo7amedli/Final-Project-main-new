@@ -1,0 +1,55 @@
+.job-posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.job-post {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 3px solid #9a5fe3;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.job-post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.job-post-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.job-post-detail {
+  margin-bottom: 10px;
+}
+
+.job-post-label {
+  font-weight: bold;
+}
+
+.job-post-buttons {
+display: flex;
+}
+
+.hire-button, .heart-button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.hire-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.heart-button {
+  background-color: #dc3545;
+  color: #fff;
+}
